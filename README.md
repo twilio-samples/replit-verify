@@ -1,11 +1,12 @@
 # Help Me Name My New Puppy 🐾
 
-A tiny, playful naming-contest web app. Vote for your favorite name and
-watch the leaderboard update in real time.
+A tiny, playful naming-contest web app. Vote for your favorite name and watch the leaderboard update in real time.
 
-This app uses [Twilio Verify](https://www.twilio.com/docs/verify) to
-send a one-time code to each voter's phone, so a phone number can only
-vote once.
+Uses [Twilio Verify](https://www.twilio.com/docs/verify) to send a one-time code to each voter's phone, so a phone number can only vote once.
+
+## Run it on Replit
+
+[![Run on Replit](https://replit.com/badge/github/twilio-samples/replit-verify)](https://replit.com/github.com/twilio-samples/replit-verify)
 
 ## How it works
 
@@ -36,9 +37,6 @@ wrap the Twilio Verify API.
 
    On Replit, add these as [Secrets](https://docs.replit.com/replit-workspace/workspace-features/secrets) instead of a `.env` file.
 
-## Run it on Replit
-
-[![Run on Replit](https://replit.com/badge/github/twilio-samples/replit-verify)](https://replit.com/github.com/twilio-samples/replit-verify)
 
 ## Run it locally
 
