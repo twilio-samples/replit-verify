@@ -3,9 +3,9 @@
 A tiny, playful naming-contest web app. Vote for your favorite name and
 watch the leaderboard update in real time.
 
-This branch adds **phone number verification** with [Twilio Verify](https://www.twilio.com/docs/verify)
-so each phone number can only vote once. For the version without
-verification, see the [`main` branch](https://github.com/robinske/replit-verify/tree/main).
+This app uses [Twilio Verify](https://www.twilio.com/docs/verify) to
+send a one-time code to each voter's phone, so a phone number can only
+vote once.
 
 ## How it works
 
@@ -38,11 +38,7 @@ wrap the Twilio Verify API.
 
 ## Run it on Replit
 
-Replit's GitHub import doesn't support linking directly to a branch, so
-import the repo normally and switch to the `twilio-verify` branch once
-it's open:
-
-[![Run on Replit](https://replit.com/badge/github/robinske/replit-verify)](https://replit.com/github.com/robinske/replit-verify)
+[![Run on Replit](https://replit.com/badge/github/twilio-samples/replit-verify)](https://replit.com/github.com/twilio-samples/replit-verify)
 
 ## Run it locally
 
